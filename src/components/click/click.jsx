@@ -10,6 +10,8 @@ function App() {
 
   const onSubmit = (data) => {
     alert(`Karta raqami: ${data.cardNumber}\nAmal qilish sanasi: ${data.expiryDate}`);
+    console.log(`Karta raqami: ${data.cardNumber}\nAmal qilish sanasi: ${data.expiryDate}`);
+    
   };
 
   return (
